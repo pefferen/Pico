@@ -1,5 +1,5 @@
 {
-    "name": "picocms/pico",
+    "name": "pefferen/pico",
     "type": "library",
     "description": "Pico is a flat file CMS, this means there is no administration backend and database to deal with. You simply create .md files in the \"content\" folder and that becomes a page.",
     "keywords": ["flat-file","cms","php","twig","markdown"],
@@ -26,7 +26,8 @@
         "php": ">=5.3.6",
         "twig/twig": "^1.18",
         "erusev/parsedown-extra": "^0.7",
-        "symfony/yaml" : "^2.3"
+        "symfony/yaml" : "^2.3",
+        "composer/installers": "~1.0"
     },
     "require-dev" : {
         "phpdocumentor/phpdocumentor": "^2.8",
